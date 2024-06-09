@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #40576d;
+        }
+        .login-form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            
+        }
+        .login-form h1{
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px 0;
+
+        }
+        .login-form label{
+        font-size: 20px;
+         margin: 15px, 0 ;
+        }
+        .login-form input{
+        font-size: 16px;
+        padding: 15px 10px;
+        width: 100%;
+        }
+        .login-form button{
+         font-size: 18px;
+        font-weight: bold;
+        padding: 10px 15px;
+        margin: 20px 0px;
+        width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="login-form">
+    <form action="" method="post">
+        {%  csrf_token  %}
+
+        <h1>Login </h1>
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">password</label>
+        <input type="text" id="password" name="password" required>
+        <button type="submit">Login</button>
+
+        
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>home</title>
+    <style>
+        $shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+$primaryColor: #07ccff;
+body {
+  margin: 0;
+  font-family: calibri;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+background-color: grey;
+}
+a {
+  color: #222;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0.4em 0;
+}
+.clearfix {
+  clear: both;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+  box-shadow: $shadow;
+  white-space: nowrap;
+  overflow: hidden;
+  span {
+    margin-left: 20px;
+    img {
+      margin: 0 0px;
+      vertical-align: middle;
+    }
+    h1 {
+      display: inline-block;
+      font-size: 1.4em;
+      vertical-align: middle;
+    }
+  }
+  ul {
+    display: inline-block;
+    margin: 0;
+    li {
+      display: inline-block;
+      padding: 14px 10px;
+    }
+  }
+}
+main {
+  height: 100vh;
+  background-image: url('');
+  background-size: cover;
+  padding-top: 49vh;
+  h1 {
+    color: yellow;
+    text-align: center;
+  }
+}
+section {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: $shadow;
+  width: 96%;
+  margin: -20px auto;
+  padding: 20px 50px;
+  border-radius: 10px;
+  img {
+    border-radius: 200px;
+    background-color: red;
+  }
+  h2 {
+    color: #222;
+  }
+  p {
+    color: #444;
+    width: 60%;
+    margin: 0 auto;
+    a {
+      color: royalblue;
+    }
+  }
+}
+article {
+  position: relative;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  figure {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: $primaryColor;
+  }
+  .cards-holder {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 10%;
+  }
+  .card {
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    width: 36%;
+    margin: 0 7%;
+    background-color: #fff;
+    border-radius: 10px 70px 10px 10px;
+    box-shadow: $shadow;
+    .scrollable {
+      padding: 20px 30px;
+      height: inherit;
+      width: 100%;
+      overflow: auto;
+    }
+    h3 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+      margin-left: 1em;
+    }
+  }
+}
+.section-group {
+  section {
+    text-align: left;
+    margin: 20px auto;
+    h2 {
+      font-size: 2em;
+    }
+    ul {
+      list-style: none;
+      li {
+        line-height: 2em;
+      }
+      li::before {
+        content: "▶ ";
+        margin-right: 3px;
+      }
+    }
+  }
+}
+footer {
+  background-color: #2d2f3b;
+  color: #fff;
+  padding: 10px 0;
+  ul {
+    list-style: none;
+    li {
+      line-height: 2.5em;
+    }
+  }
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+  <span>
+    <img src="https://cdn-icons-png.flaticon.com/512/2231/2231605.png" alt="Logo" height="40">
+    <h1>Medico Wings And Engineering</h1>
+  </span>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="details">About Us</a></li>
+    <li><a href="admission">Students Admission</a></li>
+    <li><a href="register">Teacher Register</a></li>
+    <li><a href="signup">Students Signup</a></li>
+    <li><a href="loginn">Students Login</a></li>
+    <li><a href="admin">Admin</a></li>
+    <li><a href="connect">Contact us</a></li>
+  </ul>
+</header>
+<main>
+  <h1>MEDICO WINGS AND ENGINEERING</h1>
+</main>
+<section>
+  <img src="https://media.istockphoto.com/id/1133987947/photo/tele-marketer-working-at-office-with-computer.jpg?s=612x612&w=0&k=20&c=ktwF8kt-emUhD7IPUiMVTY-bOakA2n-JIUrflh4LYpA=" alt="zera" height="120">
+  <h2><i>Message from Zera</i></h2>
+  <i><p>“Medico Wings And Engineering College, Bangalore, has been in the forefront of providing professional medical education in the country for the last six decades.  Known for quality education, the institution has been consistently ranked among the top 10 medical institutions, in the country. With dedicated and skilled faculty, excellent infrastructure, library facilities, museums, laboratories and skill labs, that provide hands-on experience to the students, the institution has been attracting numerous students from India as well as from many other countries of the world. </p></i>
+</section>
+<i><article>
+  <figure></figure>
+  <div class="cards-holder">
+    <div class="card">
+      <div class="scrollable">
+        <img src="https://toppng.com/uploads/preview/maybe-something-like-this-a-but-with-mission-icon-font-awesome-11563099799q24efxo8zd.png" alt="Mission icon" height=60>
+        <h3>Mission</h3>
+        <p>To be a student centric institute imbibing experiential, innovative and lifelong learning skills, addressing societal problems.To promote and undertake all-inclusive research and development.To strengthen National and International, Industrial and institutional collaborations for symbiotic relations.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="scrollable">
+        <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="Vision icon" height=60>
+        <h3>Vision</h3>
+        <p>To be a Value based Globally Recognized Institution ensuring academic excellence and fostering Research, Innovation and Entrepreneurial Attitude.</p>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</article>
+<div class="section-group">
+  <section>
+    <h2>Notice Board</h2>
+    <ul>
+      <li><a href="#">Medical Admission 2024-25</a></li>
+      <li><a href="#">Engineering Admission 2024-25 Application Form</a></li>
+      <li><a href="#">College Prospectus 2023 24</a></li>
+      <li><a href="#">Admission Notice For Vacant Seats For Diploma Courses For Session 2024-25</a></li>
+      <li><a href="#">Vacancy For Guest Lecturer</a></li>
+      <li><a href="#">Schedule for walk-in- interview on 22.06.2024</a></li>
+      <li><a href="#">Revised Schedule For Walk-In-Interview For Guest Faculty</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Student Section</h2>
+    <ul>
+      <li><a href="#">Fee Payment for December-june 2024 semester Using AXIS BANK External Online Resource</a></li>
+      <li><a href="#">Placements for passout students in Placementcell</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Tender</h2>
+    <ul>
+      <li><a href="#">Dispose of Waste Newspaper, Records and books</a></li>
+      <li><a href="#">Accepting the quotation for painting and maintanance whole building.</a></li>
+      <li><a href="#">Corrigendum for Dispose of newspaper waste</a></li>
+      <li><a href="#">Accepting the quotation for college bus service.</a></li>
+    </ul>
+  </section>
+</div></i>
+<footer>
+  <ul>
+    <li>Copyright © Medico Wings And Engineering (Medical, Engineering and diploma), Bangalore, Its for study purpose</li>
+<!--    <li>Designed by students of CCET (Diploma)</li>-->
+  </ul>
+</footer>
+</body>
+</html>
